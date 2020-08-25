@@ -1,7 +1,7 @@
 {
   "name": "react-native-pixelated-image",
   "title": "React Native Pixelated Image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "resize antialiasing",
   "main": "index.js",
   "files": [
