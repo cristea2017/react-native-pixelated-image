@@ -1,5 +1,31 @@
 # react-native-pixelated-image
 
+`react-native-pixelated-image` display small images (64x64) wit antialias disabled/Pixelated.
+In ios you can easy edit RCTImageView , but this is automatic changed when run pod install... 
+```layer.magnificationFilter = .nearest.```
+
+Also in android if you set antialiasing is not working as expected. Need to add an extra step :
+```
+drawable.setAntiAlias(false);
+drawable.setFilterBitmap(false);
+```
+
+
+<img src="media/r.png" width="500"  title="Result">
+</br>
+</br>
+</br>
+
+Result: Ios | Android
+
+<img src="media/i.png" width="200"  title="Result">
+
+<img src="media/a.png" width="200"  title="Result">
+
+</br>
+</br>
+</br>
+
 ## Getting started
 
 `$ npm install react-native-pixelated-image --save`
@@ -23,9 +49,9 @@ import PixelatedImage from 'react-native-pixelated-image';
         />
 ```
 
-## Important !
+## Platform Supported
+* [x] Android
+* [x] iOS
 
-- ios version 
+## History
 
-## ToDo
-- androidVersion
