@@ -64,7 +64,7 @@ public class MyCustomView extends RelativeLayout {
                 MyCustomView.this.onClick();
             }
         });
-        setBackgroundColor(Color.WHITE );
+        // setBackgroundColor(Color.WHITE );
         image = findViewById(R.id.imageView1);
 
     }

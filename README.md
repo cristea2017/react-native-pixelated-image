@@ -28,8 +28,13 @@ Result: Ios | Android
 
 ## Getting started
 
-`$ npm install react-native-pixelated-image --save`
-
+```bash
+$ npm install react-native-pixelated-image --save
+```
+```
+cd ios 
+pod install
+```
 ### Mostly automatic installation
 
 `$ react-native link react-native-pixelated-image`
